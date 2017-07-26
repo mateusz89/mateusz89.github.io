@@ -9,25 +9,47 @@
 <body>
 
 
-
-
-
-
-
-
-
-
     <form action="https://formspree.io/mat.wojkowski@gmail.com" method="POST">
-        <label for="imie">Imię</label><br/>
-        <input type="text" name="imie" id="imie"><br/>
-        <label for="nazwisko">Nazwisko</label><br/>
-        <input type="text" name="nazwisko" id="nazwisko"><br/>
-        <label for="email">email</label><br/>
-        <input type="text" name="email" id="email">
-        <label for="number">Telefon</label><br/>
-        <input type="tel" name="usrtel" id="usrtel"><br/>        
-        <textarea maxlength="1000">Wiadomosc</textarea><br/>
-        <input type="submit" value="Wyslij">
+      
+      
+      <div id="formularz">
+      
+      
+      <label>Imię</label>
+      <input name="name">
+      
+      <label>Nazwisko</label>
+      <input name="name">
+      
+      <label>E-mail</label>
+      <input name="email" type="email">
+      
+      <label>Numer telefonu</label>
+      <input name="telefon" type="number">
+      
+      <label>Wybierz miasto</label>
+      
+      <select>
+        <option>Kraków</option>
+        <option>Warszawa</option>
+        <option>Gdańsk</option>
+      </select>
+      
+      <p>Płeć</p>
+      
+      <input type="radio" name="Płeć" value="Kobieta" />Kobieta
+      <input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna
+      
+      <p>Wyrażasz zgodę na przetwarzanie danych osobowych?</p>
+      
+      <input type="checkbox" name="zgoda">Tak
+      
+      <p>Wiadomosc</p>
+      <textarea name="komentarz" cols="50" rows="10"></textarea>
+      
+    </div>
+      
+    
     </form>
 
 </body>
