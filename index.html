@@ -7,30 +7,53 @@
 </head>
 
 <body>
+    
+    <form action="https://formspree.io/mat.wojkowski@gmail.com"method="POST"></form>
 
+    <!-- POLE IMIENIA -->
+    
+    <form action="form.php" method="post">
     
     <label for="imie">Imię</label><br/>
     <input type="text" name="imie" id="imie"><br/>
+    
+    <!-- POLE NAZWISKA -->
+    
     <label for="nazwisko">Nazwisko</label><br/>
     <input type="text" name="nazwisko" id="nazwisko"><br/>
+    
+    <!-- POLE ADRESU E-MAIL -->
+    
     <label for="email">email</label><br/>
     <input type="text" name="email" id="email"><br/>
+    
+    <!-- POLE WYBORU MIASTA -->
+    
     <label for="miasto">Wybierz miasto zamieszkania</label><br/>
     <select name="wybierz">
         <option>Krakow</option>
         <option>Warszawa</option>
         <option>Gdańsk</option>
     </select><br/>
+    
+    <!-- POLE WYBORU PŁCI -->
+    
     <label for="plec">Płeć</label><br/>
     <input type="radio" name="Płeć" value="Kobieta" />Kobieta<br/>
     <input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna<br/>
+    
+    <!-- ZGODA NA PRZETWARZANIE DANYCH OSOBOWYCH -->
+    
     <label for="zgoda">Czy wyrażasz zgodę na przetwarzanie danych osobowych?</label><br/>
     <input type="checkbox" name="zgoda" value="tak" />Tak<br/>
+    
+    <!-- POLE WIADOMOŚCI -->
+    
     <label for="wiadomosc">Zostaw wiadomość</label><br/>
     <textarea name="wiadomosc" cols="50" rows="10">Wpisz komentarz</textarea><br/>
     <input type="submit" name="wyslij_formularz" value="Wyślij formularz" /><br/>
 
-<form action="https://formspree.io/mat.wojkowski@gmail.com"method="POST"></form>
+    </form>
 
 </body>
 
